@@ -1,5 +1,5 @@
 # fb-lcp
- Managing Lifecycle policy on FlashBlade.
+ Managing Lifecycle policy on Pure Storage FlashBlade object storage.
 
  Docker image with custom python scripts to manage the life cycle policy for a bucket on FlashBlade.
 

@@ -36,7 +36,7 @@ Usage
 
 ## Listing the Lifecycle policy for a bucket on FlashBlade
 
-  Make sure to set the environment file as stated above before running the script.
+  Make sure to set the environment file as stated above before running the script as the bucket name is passed through environment variables along with access key, secret key and the FB datavip.
 
 Usage
 ```

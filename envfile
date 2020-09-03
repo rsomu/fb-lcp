@@ -1,5 +1,5 @@
-secret_key=xxxx
 access_key=xxxx
+secret_key=xxxx
 endpoint_url=http://<FB-datavip>
 bucket=<bucket-name>
 noncurrent_days=1

@@ -31,7 +31,7 @@ If noncurrent_days is not set, default of 1 day is assumed.
 
 Usage
 ```
-  docker run --rm --env=<envfile> fb-lcp python ./setlcp.py
+  docker run --rm --env-file=<envfile> fb-lcp python ./setlcp.py
 ```
 
 ## Listing the Lifecycle policy for a bucket on FlashBlade
@@ -40,7 +40,7 @@ Usage
 
 Usage
 ```
-  docker run --rm --env=<envfile> fb-lcp python ./getlcp.py
+  docker run --rm --env-file=<envfile> fb-lcp python ./getlcp.py
 ```
 
 ## Removing the Lifecycle policy for a bucket on FlashBlade
@@ -49,5 +49,5 @@ Usage
 
 Usage
 ```
-  docker run --rm --env=<envfile> fb-lcp python ./rmlcp.py
+  docker run --rm --env-file=<envfile> fb-lcp python ./rmlcp.py
 ```

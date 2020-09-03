@@ -25,7 +25,7 @@ Usage
 
 If noncurrent_days is not set, default of 1 day is assumed.
 
-##Setting a Lifecycle policy for a bucket on FlashBlade
+## Setting a Lifecycle policy for a bucket on FlashBlade
 
   Make sure to set the environment file as stated above before running the script.
 
@@ -34,7 +34,7 @@ Usage
   docker run --rm --env=<envfile> fb-lcp python ./setlcp.py
 ```
 
-##Listing the Lifecycle policy for a bucket on FlashBlade
+## Listing the Lifecycle policy for a bucket on FlashBlade
 
   Make sure to set the environment file as stated above before running the script.
 
@@ -43,7 +43,7 @@ Usage
   docker run --rm --env=<envfile> fb-lcp python ./getlcp.py
 ```
 
-##Removing the Lifecycle policy for a bucket on FlashBlade
+## Removing the Lifecycle policy for a bucket on FlashBlade
 
   Make sure to set the environment file as stated above before running the script.
 

@@ -1,5 +1,5 @@
-secret_key=4EF3162B7a5548fde+6b84+FEA44AD0ab3a4958DBJC
-access_key=PSFBSAZRDICKCMNNNDADCOPLOONPIEFFKHLCGBELAF
-endpoint_url=http://10.21.152.250
-bucket=splunk-data
-noncurrent_days=3
+secret_key=xxxx
+access_key=xxxx
+endpoint_url=http://<FB-datavip>
+bucket=<bucket-name>
+noncurrent_days=1

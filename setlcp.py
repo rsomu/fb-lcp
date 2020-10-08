@@ -32,7 +32,7 @@ if "noncurrent_days" in os.environ:
 else:
    ncd = 1
 
-s3 = boto3.resource(service_name='s3', use_ssl=False, 
+s3 = boto3.resource(service_name='s3', verify=False, 
      aws_access_key_id=akey,
      aws_secret_access_key=skey,
      endpoint_url=eurl)

@@ -43,9 +43,7 @@ s3.meta.client.put_bucket_lifecycle_configuration (
     'Rules': [
       {
         'ID' : 'rule1',
-        'Filter' : {
-           'Prefix' : '/',
-        },
+        'Filter' : {},
         'Status' : 'Enabled',
         'NoncurrentVersionExpiration': {
            'NoncurrentDays': ncd
